@@ -17,8 +17,8 @@ const Navbar = () => {
   return (
     <nav className='w-full flex md:justify-center justify-between items-center p-4'>
       <div className='flex items-center'>
-        <SiEthereum alt="logo" className="w-20 h-20" />
-        <p className='font-bold text-xl'>SendEther</p>
+        <SiEthereum alt="logo" className="w-20 h-20 text-white" />
+        <p className='font-bold text-xl text-white'>SendEther</p>
       </div>
       {/** 
       <ul className='text-white md:flex hidden list-none flex-row justify-between items-center flex-initial'>
